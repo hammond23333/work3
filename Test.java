@@ -3,8 +3,7 @@ import java.util.Date;
 import  java.util.*;
 
 public class Test {
-    public static  Connection conn;//创建连接对象（将Connection 放在方法体外面扩大适用范围）
-    //mysql语句：添加信息
+    public static  Connection conn;//创建连接对象
     private static final String SQL1 = "insert  into students(name,sex,classid) values (?,?,?)";
 
     //mysql语句：删除语句
